@@ -3,13 +3,13 @@
 }
 
 :root{
-    --primary-color-dark:rgb(59, 132, 148);
-    --primary-color-bland:#e6f4f7;
-    --primary-color-hover: #6ca1ac;
-    --primary-color-footer: #457e8acc;
+    --primary-color-dark: white;
+    --primary-color-bland:#bb2019;
+    --primary-color-hover: #bb2019;
+    --primary-color-footer: #030505cc;
     --primary-color-text-dark: #26555f;
-    --primary-color-btn-gray: #f0f0f0;
-    --primary-color-btn-gray-hover: #f8f5f5;
+    --primary-color-btn-gray: #bb2019;
+    --primary-color-btn-gray-hover: #830f09;
 }
 
 html, body {
@@ -62,6 +62,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     padding: 155px 0px 20px;
+    margin-top: 160px;
     /* background-color: white; */
 }
 
@@ -87,7 +88,7 @@ body {
 }
 
 .login-table {
-    background-color: var(--primary-color-bland);
+    background-color: white;
     padding: 60px 60px;
     display: flex;
     align-items: center;
@@ -104,7 +105,7 @@ body {
 
 .login-label {
     text-transform: uppercase;
-    font-size: 1.8rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 30px;
     font-weight: 520;
@@ -149,16 +150,18 @@ body {
 
 
 .btn-login-success {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    color: white;
     background-color: var(--primary-color-btn-gray);
-    padding: 5px 35px;
+    padding: 10px 120px;
     border-radius: 8px;
     border: 1px black solid;
 }
 
 .btn-login-success:hover {
-    background-color: var(--primary-color-btn-gray-hover);
-
+    /* background-color: var(--primary-color-btn-gray-hover); */
+    /* cursor: pointer; */
+    
 }
 
 /* ==== HEADER  === */
