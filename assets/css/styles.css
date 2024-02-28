@@ -79,12 +79,31 @@ h2 {
     padding: 0 35px 0 5px;
 }
 
+.input-field .message{
+    display: block;
+    position: absolute;
+    top: 53px;
+    font-size: 0.8em;
+}
+
 .input-field .icon {
     position: absolute;
     right: 8px;
     color: #9f9c9c;
     font-size: 1.2em;
     line-height: 57px;
+}
+
+.ri-checkbox-circle-fill {
+    color: #029f02;
+}
+
+.ri-close-circle-fill {
+    color: #ff0000;
+}
+
+.message {
+    color: #ff0000;
 }
 
 .forgot {
@@ -146,6 +165,8 @@ button:hover{
         width: 100vw;
         height: 100vh;
         border: none;
+        border-radius: 0;
+        font-size: 3.6vw;
     }
 }
 
